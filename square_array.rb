@@ -5,5 +5,3 @@ def square_array(array)
      puts  number**2
   end
 end
-
-
