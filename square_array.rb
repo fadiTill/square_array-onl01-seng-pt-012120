@@ -5,6 +5,6 @@ def square_array(array)
 end
 
 def calls_on_each
-  arry = [1,2,3]
+  array = [1,2,3]
   array.each {|number| puts **2}
 end 
