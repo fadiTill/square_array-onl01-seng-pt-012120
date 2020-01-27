@@ -1,7 +1,9 @@
 def square_array(array)
   # your code here
-  array = [1,2,3]
-  array.collect{|number| puts "square_array doesn't call collect/map or inject"}
+  numbers = [1,2,3]
+   numbers.each do|number|
+     puts  number**2
+  end
 end
 
 def calls_on_each
