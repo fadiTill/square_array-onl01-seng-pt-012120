@@ -6,5 +6,5 @@ end
 
 def calls_on_each
 numbers = [1,2,3]
- numbers.each { puts **2}
+ numbers.each { puts numbers **2}
 end
