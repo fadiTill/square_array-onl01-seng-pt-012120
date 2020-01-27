@@ -6,5 +6,6 @@ end
 
 def calls_on_each
 numbers = [1,2,3]
- numbers.each { |number| puts **2}
+ numbers.each do|number| 
+   puts **2
 end
