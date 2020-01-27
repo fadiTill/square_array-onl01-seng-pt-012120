@@ -6,7 +6,7 @@ end
 
 def calls_on_each
   numbers = [1,2,3]
-  numbers.each|number| 
+  numbers.each|number|
     puts |number|**2
-  
+
 end
