@@ -5,9 +5,9 @@ def square_array(array)
 end
 
 def calls_on_each
-  counter = 1
+  
   numbers = [1,2,3]
   numbers.each|number|
-     counter **2
+     puts {number} **2 
 
 end
