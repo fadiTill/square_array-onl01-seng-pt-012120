@@ -8,6 +8,6 @@ def calls_on_each
 
   numbers = [1,2,3]
   numbers.each|number|
-  number_square = numbers.each {|number|**2} 
+  number_square = numbers.each { puts |number|**2} 
 
 end
